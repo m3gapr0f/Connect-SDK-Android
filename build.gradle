@@ -123,3 +123,7 @@ dependencies {
 }
 
 apply from: 'maven-push.gradle'
+dependencies { 
+ //... 
+ compile 'com.connectsdk:connect-sdk-android:1.6.0' 
+} 
